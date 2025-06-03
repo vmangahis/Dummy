@@ -1,11 +1,13 @@
-import { useState } from "react";
+import * as react from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = react.useState(0);
 
+
+  /* Now you see me */
   return (
     <>
       <div>
